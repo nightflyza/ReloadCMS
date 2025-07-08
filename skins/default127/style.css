@@ -1,0 +1,360 @@
+/* General style classes */
+body, td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #ffffff;
+	background-image: url(btbg.png);
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-size: 11px;
+}
+
+.mtbl {
+	background-color: White;
+}
+
+.poll1 {
+	background-image: url(poll.jpg);			
+}
+
+.poll2 {
+	background-color: #EDEDED;
+}
+
+a{
+	text-decoration: none;
+	color: #111111
+}
+
+a:hover{
+	text-decoration: underline;
+	color: #49b4ff;
+}
+
+form{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+ul{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+img{
+	border-width: 0px;
+}
+
+.mbg {
+	background-image: url(mbg.jpg);	
+	height: 41px;
+}
+
+.lowerspacer {
+	background-image: url(lbg.png);	
+	height: 80px;
+}
+
+textarea {
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 95%;
+	color: #000000;
+}
+
+select, input {
+	background-image: url(button.jpg);	
+}
+
+textarea{
+	font-size: 120%
+}
+
+/* Page layout classes */
+#header-root{
+	background-color: #ffffff;
+	margin: 0 5px 0 5px;
+}
+
+#header-title{
+	color: #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 225%;
+	font-weight: bold;
+	margin: 2px 5px 2px 5px;
+}
+
+header-navbox{
+	background-color: #7bbeef;
+	border: 1px solid #7bbeef;
+}
+
+.vspacer {
+	background-image:url(sbgr.gif);
+}
+
+.bspace {
+background-image: url(btbg.png);	
+}
+
+a.header-navbox{
+	
+	display: inline;
+	padding: 2px 5px 2px 5px;
+	margin: 1px 2px 1px 2px;
+   color: #FFFFFF;
+}
+
+a.header-navbox:hover{
+	background-color: #FFFFFF;
+	color: #000000;
+	text-decoration: none;
+}
+
+#layout-root{
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+}
+
+#layout-center{
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#layout-left{
+	padding: 1px 1px 1px 1px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 19%;
+}
+
+#layout-right{
+	padding: 1px 1px 1px 1px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 19%;
+}
+
+#copyright{
+	text-align: center;
+}
+
+/* Main windows styles */
+.window-title{
+	font-weight: bold;
+	color: White;
+	text-decoration: none;
+	font-size: 95%;
+	text-align: center;
+	background-image: url(mbg.jpg);
+	height: 20px;
+	padding-top: 7px;
+}
+
+.window-main{
+	margin: 2px 0px 10px 0px;
+	padding: 2px 2px 2px 2px;
+	border: 1px dotted #EEEEEE;
+	background-color: #F8F8F8;
+}
+
+/* ReloadCMS styles classes */
+th {
+	background-color: #F9FDFF;
+	padding: 1px 1px 1px 1px;
+}
+
+.row1 {
+	background-color: #F0FBFF;
+	padding: 1px 1px 1px 1px;
+}
+
+.row2 {
+	background-color: #FEFEFE;
+	padding: 1px 1px 1px 1px;
+}
+
+.row3 {
+	background-color: #FEFEFE;
+	padding: 1px 1px 1px 1px;
+}
+
+.special {
+	color: red ! important;
+}
+
+.border{
+	border: 1px solid black;
+}
+
+.codetitle {
+	margin: 10px 5px 0px 5px;
+	padding: 4px;
+	border-width: 1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #A9B8C2;
+	color: black;
+	background-color: #A9B8C2;
+	font-size: 8pt;
+}
+
+.codetext {
+	margin: 0px 5px 10px 5px;
+	padding: 5px 5px 5px 5px;
+	border-color: #A9B8C2;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	color: black;
+	font-weight: normal;
+	font-size: 8pt;
+	font-family: "Courier New", Courier, mono;
+	background-color: #FAFAFA;
+	overflow: auto
+}
+
+.hidden {
+	margin: 0px 5px 10px 5px;
+	padding: 2px 2px 2px 2px;
+	border-color: Navy;
+	border-width: 1px 1px 1px 1px;
+	border-style: dashed;
+	color: black;
+	font-weight: normal;
+	font-size: 8pt;
+	font-family: "Courier New", Courier, mono;
+	background-color: #C4E6FA;
+	overflow: auto;
+}
+
+.rate {
+	margin: 0px 5px 10px 5px;
+	padding: 2px 2px 2px 2px;
+	border-color: Navy;
+	border-width: 1px 1px 1px 1px;
+	border-style: dotted;
+	color: black;
+	font-weight: normal;
+	font-size: 8pt;
+	font-family: "Courier New", Courier, mono;
+	overflow: auto;
+	background-color: #C4E6FA;
+}
+
+.rate-text {
+	width: 20%;
+}
+
+.rate-fill {
+   border: 1px;
+	border-color: Black;
+	background-image: url(poll.jpg);
+	height: 10;
+	width: 20%;
+}
+
+.rate-empty {
+	border: 1px;
+	border-color: Black;
+	height: 10;
+	width: 20%;
+}
+
+.rate-radio {
+	background-image: none;
+}
+
+
+/* Required for 1.2.7 or higer releases of ReloadCMS */
+
+
+div.dhtml_menu div.vert_menu
+{
+	position: absolute;
+	visibility: hidden;
+}
+
+div.dhtml_menu div.horz_menu a { display: block; float: left; }
+div.dhtml_menu div.vert_menu a { display: block; float: none; }
+
+div.dhtml_menu div.vert_menu
+{
+  margin-right:  -1px;
+  border-bottom: 1px solid #000000;
+}
+
+div.dhtml_menu div.horz_menu a,
+div.dhtml_menu div.vert_menu a
+{
+	height: 20px;
+	line-height: 20px;
+	text-align: left;
+	text-decoration: none;
+	color: #000000;
+	background-color: #6AB6FF;
+}
+
+div.dhtml_menu div.horz_menu a
+{
+  background-color: transparent;
+  line-height: 15px;
+  height: 15px;
+}
+
+div.dhtml_menu div.vert_menu a
+{
+  margin-bottom: -1px;
+  width: 200px;
+  border: 1px solid Black;
+}
+
+div.dhtml_menu div.horz_menu a:hover,
+div.dhtml_menu div.vert_menu a:hover
+{
+	color: #000000;
+	background-color: #7DC0FF;
+
+}
+
+div.dhtml_menu div.horz_menu a.parent,
+div.dhtml_menu div.vert_menu a.parent
+{
+	color: #000000;
+	background-color: #6AB6FF;
+}
+
+div.dhtml_menu div.horz_menu a.parent
+{
+	background-color: transparent;
+}
+
+div.dhtml_menu div.horz_menu a.active,
+div.dhtml_menu div.vert_menu a.active,
+div.dhtml_menu div.horz_menu a.active:hover,
+div.dhtml_menu div.vert_menu a.active:hover
+{
+	color: #000000;
+	background-color: #4AA7FF;
+}
+
+
+.delete_button {
+   height: 21px;
+   width: 21px;
+	border: solid;
+	border-width: 0px;
+	background-image: url(../delete.gif);	
+}
+
+/* Extended forum stylesheet */
+
+.frrow1	{ background-color: #EFEFEF; }
+.frrow2	{ background-color: #DEE3E7; }
+.frrow3	{ background-color: #D1D7DC; }

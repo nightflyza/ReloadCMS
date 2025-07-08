@@ -1,0 +1,137 @@
+-------------------[Release 1.2.7]---
+NF> Avatars API
+NF> Avatars control
+NF> IP tracking in comments
+NF> added Migels menu icons patch
+NF> Page generation time
+NF> Polls module fixed
+NF> Fixed text align under some browsers
+NF> Avatars in comments
+NF> Enabling and disabling of avatars
+NF> Added user registration captcha
+NF> Avatars in forum posts
+NF> IP tracking in forum posts
+FMD> Added search module
+FMD> Private messages module 
+FMD> Dinamic menus (Article, Gallery, Users, Forum, FilesDB) 
+FMD> enabling/disabling icons in menu
+FMD> user profile template cosmetic fix
+FMD> forum template cosmetic fix
+FMD> user space info in admin index page
+FMD> Avatars administration section
+FMD> Smiles support an administration
+FMD> hidden text BB-code
+FMD> rating for each object
+FMD> optional disabling comments for unregistered users for articles,forum, gallery, guestbook.
+DV>Fixed bug with empty array in statistics.php
+-------------------[Release 1.2.6]---
+DV>Removed all password and e-mail entries from log file
+DV>Fixed bug with entities in nicknames
+DV>Max username length is now 32 symbols
+DV>Fixed bug with sending mail with registration and password info
+DV>Registered users' accesslevel fix
+DV>Fixed bug with bbCodes panel in filesdb panel
+DV>Images in gallery are opened in new window now
+DV>Fixed bug with empty 'target' in navigation URLs
+DV>Fixed bug with 'article:SECTION/CATEGORY/ARTICLE' navigation template
+DV>Removed redirections from API
+DV>Descriptions in FilesDB now being parsed by rcms_parse_text
+DV>'Quote selection' now works in Firefox 1.5 and Opera too!
+DV>Recursive chmod function fixed
+DV>Removed $dir parameter from user_lang_select
+DV>rcms_parse_ini_file return value fixed
+-->Security improvements
+-------------------[Release 1.2.5]---
+DV>Implemented HTML+bbCode mode
+DV>Added less general GENERAL-M right
+DV>Post editing fixed in forum
+DV>RSS Aggregator
+DV>New gallery administration interface
+DV>Keywords in gallery (Was "Categories in gallery")
+DV>Now gallery image do not break design :) You can open full image by clicking on small representation
+DV>Improved "Back" button in Gallery so it now don't javascript. Also added "Prev" and "Next" buttons
+DV>Improved "Forum updates" module
+DV>Some XHTML invalidities fixed
+-------------------[Release 1.2.4]---
+DV>Lots of $_SERVER array access fixed
+DV>New information interface in admin index
+DV>Gzip support in logging detection
+DV>Now calendar shows all articles from all containers
+DV>'General configuration' renamed to 'Core controls'
+DV>'Support' renamed to 'Feedback'
+DV>Bug with Index module selection
+DV>Host autodetection
+DV>Added default categories of news, articles and files in fresh installation
+DV>Fix for lots of notices in index.php
+DV>Bug with links to articles in RSS
+DV>Little fix in rcms_send_mail function
+DV>New navigation link modifier - external (opens link in new window)
+DV>New rcms_show_element('navigation'... template for link - {target}
+DV>rcms_show_browser_window function
+DV>rcms_open_browser_window function
+DV>Reorganisation of navigation menu buider
+DV>Pagination at news
+-------------------[Release 1.2.3]---
+DV>Ability to change title for modules in navigation
+DV>Fix for bug [1233658] undefined html_entity_decode in old php versions
+DV>New formsgen method : radio_button_single
+DV>'Undefined index: SERVER_SIGNATURE' on some hosts fixed
+DV>Bug with adding an article with articles.post module
+DV>Bug in rcms_chmod function fixed
+NF>Added Deutsch localization
+DV>Ability to select module for index page
+DV>Ability to hide welcome message
+-------------------[Release 1.2.2]---
+DV>'Edit article' button after article adding
+DV>Statistic registration in RSS and administration fixed
+DV>Bug with triger_error in filesystem.php
+DV>[html] bbCode fix
+DV>rcms_scandir optimized
+DV>Fixed GD support check
+DV>UCMs not working on index
+DV>Language initialisation optimised
+-------------------[Release 1.2.1]---
+DV>[html]..[/html] bbCode for articles
+DV>[del] bbCode added
+DV>[img={align}] bbCode regexp bug fixed
+DV>[spoiler]..[/spoiler] bbCode added
+DV>Now statistic is being registered always, not only when counter module is active
+DV>Added request [1215075] registered user's acesslevels
+DV>Ability to disable language autodetection
+DV>Administration moved from ./admin/ to ./admin.php
+DV>'Post article' general module
+DV>Formsgen lib is now avaible from anywhere
+DV>Support moved to general modules
+DV>IDS now can be turned off/on in config
+DV>IDS now logs into ReloadCMS standart logging system
+DV>Removed 'top.html' from templates
+DV>Links to last articles in categories list
+DV>URLs in 'Author/source' is now parsed
+DV>[user=username]Text[/user] bbcode (creates link to user's profile and displays text instead of username)
+DV>[user]username[/user] bbcode (creates link to user's profile)
+DV>Logging of user activities!
+DV>gzfile_get_contents function
+DV>Ability to show menu modules on index page
+DV>Now templates for menu-points may be placed in MODULES_TPL_PATH
+DV>rcms_remove_index to get rid of buggy php unset function
+DV>New gzfile_write_contents function
+DV>Pagination at the bottom of topics list and topic
+DV>New gallery module!
+DV>Forum module
+DV>To update profile user now must enter current password
+DV>'Awaits moderation' renamed to 'Drafts'
+DV>'Container' renamed to 'Section'
+DV>Counter design fix
+DV>Ability to pick month and year in calendar
+DV>Added GD_SUPPORTED_FORMATS and GD_SUPPORTED_FORMATS_PREG regexp
+...Lots of fixes
+-------------------[Release 1.2.0-p1]---
+DV>Added ability to disable gzipping of backup
+DV>Removed PEAR library
+DV>New optimised archiving class
+DV>Poll template fixes
+DV>Bug with ability to register user with username 'guest'
+DV>Bug when renaming section id to already existing ID
+DV>Rights initialisation bug when logout
+-------------------[Release 1.2.0]---
+  >Initial release

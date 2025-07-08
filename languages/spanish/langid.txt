@@ -1,0 +1,3 @@
+Spanish
+es
+windows-1252

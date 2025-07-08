@@ -1,0 +1,3 @@
+German
+de
+windows-1251

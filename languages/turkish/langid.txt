@@ -1,0 +1,3 @@
+Turkish
+tr
+windows-1254

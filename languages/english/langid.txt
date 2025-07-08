@@ -1,0 +1,3 @@
+English
+en
+windows-1251

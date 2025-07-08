@@ -1,0 +1,9 @@
+====== ReloadCMS - Installation instructions ======
+  * Primarily you must upload ReloadCMS distribution to your host. Please check
+     if it has PHP interpretator.
+  * If your host based on UNIX-Like OS you must recursively set rights 0777 for
+     directories 'backups', 'config' and 'content'. You can test rights by running
+     ./tools/rights_test.php from ReloadCMS distribution.
+  * Then you must register your first user (that will be Root administrator of
+    your site) and log in with selected username and password. Now you can go
+    to Administration and configure your site.

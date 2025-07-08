@@ -1,0 +1,3 @@
+Slovak
+sk
+windows-1250

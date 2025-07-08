@@ -1,0 +1,187 @@
+/* General style classes */
+body, td {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+body{
+	background-color: #ffffff;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-size: 11px;
+}
+
+a{
+	text-decoration: none;
+	color: #111111
+}
+
+a:hover{
+	text-decoration: underline;
+	color: Red;
+}
+
+form{
+	margin-bottom: 0;
+	margin-top: 0;
+}
+
+ul{
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+img{
+	border-width: 0px;
+}
+
+input, textarea, select {
+	text-decoration: none;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 95%;
+	color: #000000;
+}
+
+textarea{
+	font-size: 120%
+}
+
+/* Page layout classes */
+#header-root{
+	background-color: #ffffff;
+	margin: 0 5px 0 5px;
+}
+
+#header-title{
+	color: #cccccc;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 225%;
+	font-weight: bold;
+	margin: 2px 5px 2px 5px;
+}
+
+#header-navbox{
+	background-color: #D7D7D7;
+	border: 1px solid #D7D7D7;
+	display: block;
+	padding: 4px 0px 4px 0px;
+}
+
+a.header-navbox{
+	background-color: #D7D7D7;
+	border: medium none Black;
+	display: inline;
+	padding: 2px 5px 2px 5px;
+	margin: 1px 2px 1px 2px;
+	color: Black;
+	font-size: 95%;
+}
+
+a.header-navbox:hover{
+	background-color: Black;
+	color: White;
+	text-decoration: none;
+	border: medium solid Black;
+}
+
+#layout-root{
+	width: 100%;
+	position: relative;
+	margin-top: 10px;
+}
+
+#layout-center{
+	position: relative;
+	padding: 1px 1px 1px 1px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+#layout-left{
+	padding: 1px 1px 1px 1px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 19%;
+}
+
+#layout-right{
+	padding: 1px 1px 1px 1px;
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	width: 19%;
+}
+
+#copyright{
+	text-align: center;
+}
+
+/* Main windows styles */
+.window-title{
+	font-weight: bold;
+	text-decoration: none;
+	font-size: 95%;
+	text-align: center;
+}
+
+.window-main{
+	margin: 2px 0px 10px 0px;
+	padding: 2px 2px 2px 2px;
+	border: 1px dotted #EEEEEE;
+	background-color: #F8F8F8;
+}
+
+/* ReloadCMS styles classes */
+th {
+	background-color: #F4F4F4;
+	padding: 1px 1px 1px 1px;
+}
+
+.row1 {
+	background-color: #DFDFDF;
+	padding: 1px 1px 1px 1px;
+}
+
+.row2 {
+	background-color: #E4E4E4;
+	padding: 1px 1px 1px 1px;
+}
+
+.row3 {
+	background-color: #ECECEC;
+	padding: 1px 1px 1px 1px;
+}
+
+.special {
+	color: red ! important;
+}
+
+.border{
+	border: 1px solid black;
+}
+
+.codetitle {
+	margin: 10px 5px 0px 5px;
+	padding: 4px;
+	border-width: 1px 1px 0px 1px;
+	border-style: solid;
+	border-color: #A9B8C2;
+	color: black;
+	background-color: #A9B8C2;
+	font-size: 8pt;
+}
+
+.codetext {
+	margin: 0px 5px 10px 5px;
+	padding: 5px 5px 5px 5px;
+	border-color: #A9B8C2;
+	border-width: 0px 1px 1px 1px;
+	border-style: solid;
+	color: black;
+	font-weight: normal;
+	font-size: 8pt;
+	font-family: "Courier New", Courier, mono;
+	background-color: #FAFAFA;
+	overflow: auto
+}

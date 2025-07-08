@@ -1,0 +1,3 @@
+French
+fr
+windows-1252

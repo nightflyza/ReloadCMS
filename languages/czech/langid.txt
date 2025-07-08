@@ -1,0 +1,3 @@
+Czech
+cs
+windows-1250
